@@ -1,6 +1,6 @@
 Information Security Policy
 Organization: Harness Projects
-Client: Confidential (CourtRoom5 — legal tech platform)
+Client: Confidential (legal tech platform)
 Date: October 2024
 Category: GRC / Information Security Policy
 Role: Policy Owner — primary author of Security Incident Reporting Policy; contributing author across 17 additional sub-policies
@@ -124,5 +124,6 @@ Ten years working in a HIPAA-regulated hospital environment means understanding 
 
 
 
-Note: Client name and identifying details have been redacted for confidentiality. Policy authored for CourtRoom5, a legal technology platform.
+Note: Client name and identifying details have been redacted for confidentiality. Policy authored for a confidential legal technology platform.
+
 
