@@ -1,4 +1,4 @@
-#SOC Analyst Portfolio — Jeff Longe
+SOC Analyst Portfolio — Jeff Longe
 About
 Clinical Pharmacy Technician with 10+ years in a HIPAA-regulated environment (Texas Children's Hospital) transitioning into cybersecurity. Focused on SOC operations, threat detection, incident response, and GRC. Hands-on project experience through the Harness Projects mentorship program and active self-study via TryHackMe SOC Level 1 pathway.
 
@@ -21,6 +21,11 @@ Vulnerability Assessment
 Nessus, Shodan, testssl.sh, Nikto
 Team contributor — ran Nessus scans
 Complete
+Infrastructure Vulnerability Assessment
+Vulnerability Assessment
+Nessus, OpenVAS, Nmap, Shodan
+Individual execution + team cross-validation
+Complete
 IR Report Simulation
 Incident Response
 IR frameworks, DLP analysis, IOC documentation
@@ -30,6 +35,11 @@ IR Plan — Simulated Client
 IR Planning
 NIST SP 800-61, IR lifecycle frameworks
 Solo author / Policy owner
+Complete
+Information Security Policy
+GRC / Policy
+GDPR, CCPA, ISO 27001, SOC 2
+Policy owner — primary author
 Complete
 
 
@@ -135,4 +145,69 @@ Scoped for resource constraints of a small organization
 
 
 Connect
-LinkedIn : https://linkedin.com/in/jeffl-hacks
+LinkedIn
+
+
+Infrastructure Vulnerability Assessment
+Category: Vulnerability Assessment | Date: August–September 2024
+
+External black-box vulnerability assessment of a confidential healthcare-adjacent client's publicly accessible network infrastructure. Ran all four tools independently and cross-validated findings with teammates.
+
+My contribution: Individually ran Nessus, OpenVAS, Nmap, and Shodan; cross-validated findings with team members to confirm true positives.
+
+Tools: Nessus, OpenVAS, Nmap, Shodan
+
+Key Findings:
+
+Severity
+Vulnerability
+CVE
+Critical
+OpenSSH 8.2p1 — remote code execution, 5 public exploits available
+CVE-2023-38408
+High
+Nginx v1.18.0 — outdated web server with known vulnerabilities
+—
+High
+Multiple security headers missing
+—
+Medium
+Untrusted/self-signed SSL certificate
+—
+Medium
+BREACH, SSL/TLS renegotiation DoS, missing secure cookie attribute
+—
+
+
+Key analyst insight: Prioritization driven by exploit availability, not CVSS score alone. CVE-2023-38408 had five confirmed public exploits at time of discovery — making it an immediate remediation priority regardless of other findings.
+
+MITRE ATT&CK mapping:
+
+T1190 — Exploit Public-Facing Application (OpenSSH, Nginx)
+T1046 — Network Service Scanning (Nmap enumeration)
+T1590 — Gather Victim Network Information (Shodan recon)
+T1557 — Adversary-in-the-Middle (BREACH, SSL/TLS)
+
+
+Information Security Policy
+Category: GRC / Policy | Date: October 2024
+
+Served as policy owner and lead author on a comprehensive Information Security Policy for a confidential legal technology client operating across all 50 U.S. states. Addressed GDPR and CCPA compliance obligations.
+
+My contribution: Primary author of Security Incident Reporting Policy; contributing author across 17 additional sub-policies.
+
+Frameworks: GDPR, CCPA, ISO 27001, SOC 2
+
+18 sub-policies authored including:
+
+Security Incident Reporting Policy (primary author)
+Access Control Policy
+Business Continuity and Disaster Recovery Policy
+Third-Party Vendor Policy
+AI Customer Interaction Policy
+Remote Working and Access Policy
+Regulatory Compliance Policy
+
+Key design decisions: Built GDPR 72-hour breach notification obligations directly into the incident reporting workflow; defined severity tiers enabling consistent triage without senior involvement for every event.
+
+
