@@ -211,3 +211,5 @@ Regulatory Compliance Policy
 Key design decisions: Built GDPR 72-hour breach notification obligations directly into the incident reporting workflow; defined severity tiers enabling consistent triage without senior involvement for every event.
 
 
+
+
