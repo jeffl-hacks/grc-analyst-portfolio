@@ -10,6 +10,10 @@ TryHackMe SOC Level 1 Pathway (in progress)
 CompTIA Security+ (planned Q3 2026)
 
 
+Skills
+SIEM Splunk Microsoft Sentinel Wireshark Nmap Nessus KQL SPL MITRE ATT&CK NIST CSF OWASP HIPAA DLP Incident Response Vulnerability Assessment Risk Assessment GRC
+
+
 Projects
 Project
 Category
@@ -42,10 +46,6 @@ GDPR, CCPA, ISO 27001, SOC 2
 Policy owner — primary author
 Complete
 
-
-
-Skills
-SIEM | Splunk | Microsoft Sentinel | Wireshark | Nmap | Nessus | KQL | SPL | MITRE ATT&CK | NIST CSF | OWASP | HIPAA | DLP | Incident Response | Vulnerability Assessment | Risk Assessment | GRC
 
 
 Project Details
@@ -92,62 +92,6 @@ T1190 — Exploit Public-Facing Application
 T1083 — File and Directory Discovery (Nikto findings)
 
 
-IR Report Simulation
-Category: Incident Response | Date: January–March 2025
-
-Solo-authored incident response report for a simulated critical-severity, multi-vector attack scenario. Incident ID: IR-2025-03-003. Severity: Critical.
-
-Scenario: Three simultaneous attack vectors detected and documented:
-
-Vector 1 — Insider Breach (Data Exfiltration)
-
-Employee with admin privileges exfiltrated customer PII and proprietary business data via SFTP/FTP to external devices
-Detected via DLP system flagging unusual file access and transfer activity
-Root cause: excessive unmonitored administrative privileges; no least-privilege enforcement
-MITRE ATT&CK: T1078 (Valid Accounts), T1048 (Exfiltration Over Alternative Protocol)
-
-Vector 2 — DDoS Attack
-
-Botnet-driven volumetric attack on web portal and payment gateway
-~6 hours of service disruption before full mitigation
-Cloud-based DDoS mitigation engaged at T+5 minutes; full mitigation at T+3 hours
-Root cause: absence of proactive DDoS mitigation tools, insufficient traffic filtering
-MITRE ATT&CK: T1498 (Network Denial of Service)
-
-Vector 3 — Remote Access Trojan (RAT)
-
-Delivered via phishing email/malicious attachment
-Enabled lateral movement, privilege escalation, and network reconnaissance
-Spread across internal network exploiting weak segmentation and unpatched systems
-Root cause: ineffective email filtering, unpatched systems
-MITRE ATT&CK: T1566 (Phishing), T1021 (Remote Services), T1055 (Process Injection)
-
-Key analyst insight: The DDoS attack functioned as adversarial noise — designed to overwhelm response capacity and mask the true objective: the insider breach and RAT deployment occurring simultaneously.
-
-Documented deliverables: Executive summary, incident timeline with timestamped event/action table, initial compromise analysis, lateral movement and privilege escalation analysis, malware deployment analysis, forensic findings, lessons learned, IOC appendix, remediation recommendations.
-
-
-IR Plan
-Category: Incident Response Planning | Date: February–March 2025
-
-Solo-authored cybersecurity Incident Response Plan for a simulated small-business client (5–7 employees). Authored as policy owner. Document designed using "developed/designed" framing — fictional client, AI-assisted scenario construction.
-
-Plan scope: All employees, contractors, and third-party service providers. Covers unauthorized access, data breaches, phishing, ransomware, DDoS, insider threats, compromised cloud accounts (AWS/Google Workspace), unpatched vulnerability exploitation, privileged account misuse, and device loss/theft.
-
-Framework applied: NIST SP 800-61 IR lifecycle (Preparation → Detection → Containment → Eradication → Recovery → Post-Incident)
-
-Key design decisions documented:
-
-Defined severity classification tiers
-Established escalation paths and communication protocols
-Addressed business continuity and regulatory notification obligations
-Scoped for resource constraints of a small organization
-
-
-Connect
-LinkedIn
-
-
 Infrastructure Vulnerability Assessment
 Category: Vulnerability Assessment | Date: August–September 2024
 
@@ -189,6 +133,58 @@ T1590 — Gather Victim Network Information (Shodan recon)
 T1557 — Adversary-in-the-Middle (BREACH, SSL/TLS)
 
 
+IR Report Simulation
+Category: Incident Response | Date: January–March 2025
+
+Solo-authored incident response report for a simulated critical-severity, multi-vector attack scenario. Incident ID: IR-2025-03-003. Severity: Critical.
+
+Scenario: Three simultaneous attack vectors detected and documented:
+
+Vector 1 — Insider Breach (Data Exfiltration)
+
+Employee with admin privileges exfiltrated customer PII and proprietary business data via SFTP/FTP to external devices
+Detected via DLP system flagging unusual file access and transfer activity
+Root cause: excessive unmonitored administrative privileges; no least-privilege enforcement
+MITRE ATT&CK: T1078 (Valid Accounts), T1048 (Exfiltration Over Alternative Protocol)
+
+Vector 2 — DDoS Attack
+
+Botnet-driven volumetric attack on web portal and payment gateway
+~6 hours of service disruption before full mitigation
+Cloud-based DDoS mitigation engaged at T+5 minutes; full mitigation at T+3 hours
+Root cause: absence of proactive DDoS mitigation tools, insufficient traffic filtering
+MITRE ATT&CK: T1498 (Network Denial of Service)
+
+Vector 3 — Remote Access Trojan (RAT)
+
+Delivered via phishing email/malicious attachment
+Enabled lateral movement, privilege escalation, and network reconnaissance
+Spread across internal network exploiting weak segmentation and unpatched systems
+Root cause: ineffective email filtering, unpatched systems
+MITRE ATT&CK: T1566 (Phishing), T1021 (Remote Services), T1055 (Process Injection)
+
+Key analyst insight: The DDoS attack functioned as adversarial noise — designed to overwhelm response capacity and mask the true objective: the insider breach and RAT deployment occurring simultaneously.
+
+Documented deliverables: Executive summary, incident timeline with timestamped event/action table, initial compromise analysis, lateral movement and privilege escalation analysis, malware deployment analysis, forensic findings, lessons learned, IOC appendix, remediation recommendations.
+
+
+IR Plan — Simulated Client
+Category: Incident Response Planning | Date: February–March 2025
+
+Solo-authored cybersecurity Incident Response Plan for a simulated small-business client (5–7 employees). Authored as policy owner. Document designed using "developed/designed" framing — fictional client, AI-assisted scenario construction.
+
+Plan scope: All employees, contractors, and third-party service providers. Covers unauthorized access, data breaches, phishing, ransomware, DDoS, insider threats, compromised cloud accounts (AWS/Google Workspace), unpatched vulnerability exploitation, privileged account misuse, and device loss/theft.
+
+Framework applied: NIST SP 800-61 IR lifecycle (Preparation → Detection → Containment → Eradication → Recovery → Post-Incident)
+
+Key design decisions:
+
+Defined severity classification tiers
+Established escalation paths and communication protocols
+Addressed business continuity and regulatory notification obligations
+Scoped for resource constraints of a small organization
+
+
 Information Security Policy
 Category: GRC / Policy | Date: October 2024
 
@@ -211,9 +207,14 @@ Regulatory Compliance Policy
 Key design decisions: Built GDPR 72-hour breach notification obligations directly into the incident reporting workflow; defined severity tiers enabling consistent triage without senior involvement for every event.
 
 
-## Operational Background
-
+Operational Background
 Most candidates at this level learned HIPAA compliance in a classroom. I ran pharmacy operations inside a regulated clinical environment for 10+ years.
 
-→ [Healthcare Security Operations: A Practitioner's Perspective](./healthcare-security-operations-perspective.md)
+This writeup documents the security controls I operated within daily — access management, audit logging, incident escalation, PHI handling, and shift accountability — and maps each directly to SOC analyst competencies.
+
+→ Healthcare Security Operations: A Practitioner's Perspective
+
+
+Connect
+LinkedIn | GitHub
 
