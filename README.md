@@ -1,4 +1,4 @@
-# SOC Analyst Portfolio — Jeff Longe
+# GRC Analyst Portfolio — Jeff Longe
 
 ## About
 
@@ -25,6 +25,7 @@ Healthcare background provides direct working knowledge of regulated data enviro
 
 | Project | Category | Tools Used | Role | Status |
 |---|---|---|---|---|
+| Cyber Risk Assessment & Risk Register   | GRC / Risk Management    | ISO 31000, risk matrix, regulatory scoping     | Risk assessor — primary author               | Complete |
 | Web App Vulnerability Assessment | Vulnerability Assessment | Nessus, Shodan, testssl.sh, Nikto | Team contributor — ran Nessus scans | Complete |
 | Infrastructure Vulnerability Assessment | Vulnerability Assessment | Nessus, OpenVAS, Nmap, Shodan | Individual execution + team cross-validation | Complete |
 | IR Report Simulation | Incident Response | IR frameworks, DLP analysis, IOC documentation | Solo author | Complete |
