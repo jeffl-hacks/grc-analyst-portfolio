@@ -19,7 +19,7 @@ Loss Magnitude (LM)         = Primary Loss + Secondary Loss
 Annualized Loss Exposure    = LEF × LM, simulated across many possible years
 ```
 
-Rather than computing a single number, a Monte Carlo simulation (100,000 simulated years) was run to produce a full **loss distribution** — because real-world risk is a range, not a point estimate, and decision-makers need to see the tail risk, not just the average.
+Rather than computing a single number, a Monte Carlo simulation (100,000 simulated years) was run to produce a full **loss distribution** because real-world risk is a range, not a point estimate, and decision-makers need to see the tail risk, not just the average.
 
 ---
 
