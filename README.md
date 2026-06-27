@@ -27,7 +27,7 @@ Most candidates at this level learned HIPAA in a classroom. I spent 10+ years en
 |---|---|---|---|---|
 | [PulseCare Telehealth Risk Assessment](GRC/pulsecare-risk-assessment/PulseCare_Risk_Assessment.xlsx) | Risk Assessment / Control Gap Analysis | NIST CSF 2.0, NIST SP 800-30, HIPAA Security Rule crosswalk | Risk assessor — primary author | Complete |
 | [FAIR Quantitative Risk Analysis](GRC/fair-quantitative-risk-analysis/FAIR_Risk_Quantification_Memo.md) | Quantitative Risk Modeling | FAIR (Factor Analysis of Information Risk), Monte Carlo simulation | Risk analyst — primary author | In Progress |
-| Cyber Risk Assessment & Risk Register | Risk Assessment | ISO 31000, likelihood/consequence risk matrix, regulatory scoping | Risk assessor — primary author | Complete |
+| [Cyber Risk Assessment & Risk Register](GRC/cyber-risk-assessment-register/Cyber_Risk_Assessment_Risk_Register.md) | Risk Assessment | ISO 31000... | Risk assessor — primary author | Complete |
 | [Information Security Policy Suite](GRC/information-security-policy) | GRC / Policy | ISO 27001, SOC 2, GDPR, CCPA | Policy owner — primary author (acting CISO capacity) | Complete |
 | [Infrastructure Vulnerability Assessment](GRC/infrastructure-vulnerability-assessment) | Technical Risk Input | CVE/CWE scoring, NIST-aligned remediation guidance | Individual execution + team cross-validation | Complete |
 | Web App Vulnerability Assessment | Technical Risk Input | CVE/CWE scoring, OWASP-aligned findings | Team contributor | Complete |
