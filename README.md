@@ -8,12 +8,7 @@ Most candidates at this level learned HIPAA in a classroom. I spent 10+ years en
 
 ---
 
-## Certifications & Credentials
 
-- CompTIA Security+ (SY0-701) — in progress
-- ISC2 Certified in Cybersecurity (CC) — planned
-
----
 
 ## Skills
 
