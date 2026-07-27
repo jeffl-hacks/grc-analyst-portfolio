@@ -2,7 +2,7 @@
 
 ## About
 
-Clinical Pharmacy Technician with 10+ years of operational experience in a HIPAA-regulated environment (Texas Children's Hospital), transitioning into Governance, Risk & Compliance. Focused on risk assessment, control gap analysis, and regulatory compliance — built through hands-on engagements via the Harness Projects mentorship program and independent project work.
+Clinical Pharmacy Technician with 10+ years of operational experience in a DEA-regulated Level I pediatric trauma center (Children's Hospital), transitioning into Governance, Risk & Compliance. Focused on risk assessment, control gap analysis, and regulatory compliance — built through hands-on engagements via the Harness Projects mentorship program and independent project work.
 
 Most candidates at this level learned HIPAA in a classroom. I spent 10+ years enforcing it operationally — managing PHI handling, dispensing compliance, controlled substance auditing, and regulatory accountability inside a live clinical environment. That experience translates directly into core GRC competencies: access control review, segregation of duties, insider risk awareness, and incident escalation discipline.
 
@@ -20,14 +20,13 @@ Most candidates at this level learned HIPAA in a classroom. I spent 10+ years en
 
 | Project | Category | Frameworks / Methods | Role | Status |
 |---|---|---|---|---|
-| [PulseCare Telehealth Risk Assessment](GRC/pulsecare-risk-assessment/PulseCare_Risk_Assessment.xlsx) | Risk Assessment / Control Gap Analysis | NIST CSF 2.0, NIST SP 800-30, HIPAA Security Rule crosswalk | Risk assessor — primary author | Complete |
+| [PulseCare Telehealth Risk Assessment](GRC/pulsecare-risk-assessment/PulseCare_Risk_Assessment.xlsx) | Risk Assessment / Control Gap Analysis | NIST CSF 2.0, NIST SP 800-30, HIPAA Security Rule crosswalk | Risk assessor — primary author | Complete — fictional scenario |
 | [FAIR Quantitative Risk Analysis](GRC/fair-quantitative-risk-analysis/FAIR_Risk_Quantification_Memo.md) | Quantitative Risk Modeling | FAIR (Factor Analysis of Information Risk), Monte Carlo simulation | Risk analyst — primary author | In Progress |
 | [Cyber Risk Assessment & Risk Register](GRC/cyber-risk-assessment-register/Cyber_Risk_Assessment_Risk_Register.md) | Risk Assessment | ISO 31000... | Risk assessor — primary author | Complete |
-| [Information Security Policy Suite](GRC/information-security-policy) | GRC / Policy | ISO 27001, SOC 2, GDPR, CCPA | Policy owner — primary author (acting CISO capacity) | Complete |
+| [Information Security Policy Suite](GRC/information-security-policy) | GRC / Policy | ISO 27001, SOC 2, GDPR, CCPA | Policy owner — authored the enterprise policy suite for client engagement | Complete |
 | [Infrastructure Vulnerability Assessment](GRC/infrastructure-vulnerability-assessment) | Technical Risk Input | CVE/CWE scoring, NIST-aligned remediation guidance | Individual execution + team cross-validation | Complete |
-| Web App Vulnerability Assessment | Technical Risk Input | CVE/CWE scoring, OWASP-aligned findings | Team contributor | Complete |
 
-*Note: Vulnerability assessments are retained as supporting technical evidence — they demonstrate the ability to translate raw findings into risk-rated, business-relevant remediation guidance, a core GRC skill, not a SOC specialization.*
+*Note: Vulnerability assessments are retained as supporting technical evidence — they demonstrate the ability to translate raw findings into risk-rated, business-relevant remediation guidance, a core GRC skill.*
 
 ---
 
