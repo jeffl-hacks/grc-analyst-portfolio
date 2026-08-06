@@ -72,4 +72,4 @@ This writeup documents the security and compliance controls I operated within da
 
 ## Connect
 
-[LinkedIn](https://linkedin.com/in/jeffl-hacks) | [GitHub](https://github.com/jeffl-hacks)
+[LinkedIn](https://linkedin.com/in/jeffl-grc) | [GitHub](https://github.com/jeffl-grc)
